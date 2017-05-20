@@ -1,2 +1,2 @@
-# webpack-plugin-no-console
-clear your console in chunks
+# no-console-webpack-plugin
+A webpack plugin to clear specific type of console
