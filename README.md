@@ -2,21 +2,21 @@
 A webpack plugin to clear specific type of console
 ## Install
 ```bash
-	npm install no-console-webpack-plugin --save-dev
+npm install no-console-webpack-plugin --save-dev
 ```
 Or
 ```bash
-	yarn add no-console-webpack-plugin --dev
+yarn add no-console-webpack-plugin --dev
 ```
 ## Usage
 ```js
 const NoConsolePlugin = require('no-console-webpack-plugin');
 module.exports = {
-	//in your webpack.config.js
-	//o
-	plugins:[
-		new NoConsolePlugin()
-	]
+//in your webpack.config.js
+//other config...
+plugins:[
+	new NoConsolePlugin()
+]
 }
 ```
 
